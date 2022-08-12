@@ -44,7 +44,7 @@ What is the end goal that I want to achieve the most:
 - `qemu-system-x86_64 -boot d -cdrom image.iso -m 512 [-hda mydisk.img]`
 - last optional part above is if you created a disk image to read/write to during installs
 
-<erikveen.dds.nl/qemupuppy/index.html>    
+<https://erikveen.dds.nl/qemupuppy/index.html>    
 <https://project-awesome.org/PandaFoss/Awesome-Arch#arch-based-projects>
 
 EasyOS Builds - <https://easyos.org/dev/how-to-compile-a-linux-distribution-from-source.html>  
@@ -67,40 +67,40 @@ arch btw??
 Arch Install Guide(s)  
 
 # :: Lightweight Arch ::
-<artixlinux.org> - outdated and is a protest distro over systemd init change  
-<maboxlinux.org> - openbox edition  
+<https://artixlinux.org> - outdated and is a protest distro over systemd init change  
+<https://maboxlinux.org> - openbox edition  
 <https://axyl-os.github.io/>  
-<rebornos.org>  
-<archlabslinux.com>  
-<archlinux.org/>  
-<sourceforge.net/projects/snallinux/>  
-<peux-os.netlify.app/>  
+<https://rebornos.org>  
+<https://archlabslinux.com>  
+<https://archlinux.org/>  
+<https://sourceforge.net/projects/snallinux/>  
+<https://peux-os.netlify.app/>  
 <https://archbang.org/>  
 
 qtile window manager  
 openbox
 
 # :: Full Arch Linux ::
-<manjaro.org>- one of the leading distros overall 
-<endeavouros.com> - upcoming option in this space/category grouping  
-<garudalinux.org>- another upcoming option/gaming crowd appeal  
-<archcraft.io> - stylistic version, making the arch setup look good and run   
-<instantos.io>  
-<caesar-rylan.60.nu/lirix/>  
+<https://manjaro.org>- one of the leading distros overall 
+<https://endeavouros.com> - upcoming option in this space/category grouping  
+<https://garudalinux.org>- another upcoming option/gaming crowd appeal  
+<https://archcraft.io> - stylistic version, making the arch setup look good and run   
+<https://instantos.io>  
+<https://caesar-rylan.60.nu/lirix/>  
 xerolinux  
-<web.obarun.org/>  
-<salientos.github.io/>  
+<https://web.obarun.org/>  
+<https://salientos.github.io/>  
 hefftor  
-<endlessos.com/home/>  
+<https://endlessos.com/home/>  
 
 creation of reproducible arch build that I can pump out, copy, paste, re-load fresh copy)
 
 # :: Debian/Ubuntu ::
 Debian  
 Ubuntu  
-<cutefish-ubuntu.github.io/>  
+<https://cutefish-ubuntu.github.io/>  
 <https://zephix-linux.sourceforge.io/>  
-<sourceforge.net/projects/eznixos/>  
+<https://sourceforge.net/projects/eznixos/>  
 modicia os (ubuntu)  
 <https://zorinos.com/>  
 <https://elementary.io/>  
@@ -133,11 +133,11 @@ modicia os (ubuntu)
 # :: Experimental List ::
 <https://kisslinux.org/>  
 <https://www.exton.net/>  
-<www.mocaccino.org/>  
-<rlxos.dev/>  
-<serpentos.com> (ikey doherty)
-<peropesis.org/>  
-<carbslinux.org/>  
+<https://www.mocaccino.org/>  
+<https://rlxos.dev/>  
+<https://serpentos.com> (ikey doherty)
+<https://peropesis.org/>  
+<https://carbslinux.org/>  
 <https://bellard.org/>  
 <https://vfsync.org/index.html>  
 <https://bellard.org/jslinux/tech.html>  
@@ -171,9 +171,9 @@ modicia os (ubuntu)
 <https://blissos.org/>
 
 # :: Unknowns or independent ::
-<osdn.net/projects/hanhlinuxiso/releases/>  
+<https://osdn.net/projects/hanhlinuxiso/releases/>  
 Alpine
-<redox-os.org>  
+<https://redox-os.org>  
 <https://getsol.us/home/>  
 <https://nxos.org/>  
 <https://voidlinux.org/>  
@@ -248,7 +248,7 @@ http://us.archive.ubuntu.com/ubuntu/ [mirror url?]
 
 debian sid/unstable package
 wget http://http.us.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.123_all.deb
-sudo dpkg -i <pkg>
+`sudo dpkg -i <pkg>`
 
 low memory/power version of ubuntu on usb to use with hdmi pc.
 my procedure for developing this drive was to switch from gnome desktop to openbox
