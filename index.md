@@ -2,8 +2,7 @@ https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/
 (url not available??) https://wikka.puppylinux.com/Buildsystems
 https://landchad.net/gemini
 https://distro.tube/index.html
-https://www.learnlinux.tv/test
--2/
+https://www.learnlinux.tv/test-2/
 https://miro.medium.com/max/1836/1*eOnDXJOEREW6Q6MFiTucAw.png
 
 Best minimal options to research:
@@ -18,7 +17,7 @@ What is the end goal that I want to achieve the most:
 3. run and try GUIs or distros
 4. cook-up iso's
 
-: Tiny Core Core/Plus
+# : Tiny Core Core/Plus
 - willhaley.com/blog/simple-portable-linux-qemu-vm-usb
 - extracted vmlinuz and core.gz out of iso with 7zip program
 - download qemu version which is portable Eric Lassauge
@@ -30,7 +29,7 @@ What is the end goal that I want to achieve the most:
  - sudo mkfs.ext4 /dev/sda1
  - reboot
 
-- Fix clocksource
+## Fix clocksource
  - cat /sys/devices/system/clocksource/clocksource0/current_clocksource
  - cat /sys/devices/system/clocksource/clocksource0/available_clocksource
  - echo hpet | sudo tee /sys/devices/system/clocksource/clocksource0/current_clocksource
@@ -49,7 +48,7 @@ WeeDog Builds - Details: https://oldforum.puppylinux.com/viewtopic.php?t=116212&
 Debian Builds - 
 Ubuntu Builds - 
 
-BYO Arch:
+# BYO Arch:
 Arco - mixer edition of arch (i've looked at this a lot, but confusing...)
 calam-arch - plain arch with graphical installer
 archinstall - included script
@@ -62,7 +61,7 @@ arch from scratch??
 arch btw??
 Arch Install Guide(s)
 
-Lightweight Arch
+# Lightweight Arch
 artixlinux.org - outdated and is a protest distro over systemd init change
 maboxlinux.org - openbox edition
 https://axyl-os.github.io/
@@ -76,7 +75,7 @@ https://archbang.org/
 qtile window manager
 openbox
 
-Full Arch Linux:
+# Full Arch Linux:
 manjaro.org- one of the leading distros overall
 endeavouros.com - upcoming option in this space/category grouping
 garudalinux.org- another upcoming option/gaming crowd appeal
@@ -91,9 +90,9 @@ endlessos.com/home/
 
 creation of reproducible arch build that I can pump out, copy, paste, re-load fresh copy)
 
-Debian: 
-- Debian
-- Ubuntu
+# Debian/Ubuntu: 
+Debian
+Ubuntu
 cutefish-ubuntu.github.io/
 https://zephix-linux.sourceforge.io/
 sourceforge.net/projects/eznixos/
@@ -105,7 +104,7 @@ https://www.debian.org/
 https://peppermintos.com/
 https://pop.system76.com/ - 
 
-Puppy List:
+# Puppy List:
 - Puppy
 - WeeDog
 - EasyOS
@@ -126,7 +125,7 @@ https://distro.ibiblio.org/fatdog/web/#download
 http://distro.ibiblio.org/fatdog/web/faqs/harddrive.html
 http://wikka.puppylinux.com/USBBootwithoutBIOSSupport
 
-Experimental List:
+# Experimental List:
 https://kisslinux.org/
 www.exton.net/
 www.mocaccino.org/
@@ -166,7 +165,7 @@ https://www.hirensbootcd.org/
 https://www.plop.at/en/bootmanagers.html
 https://blissos.org/
 
-Unknowns or independent: 
+# Unknowns or independent: 
 osdn.net/projects/hanhlinuxiso/releases/
 Alpine
 redox-os.org
