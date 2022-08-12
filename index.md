@@ -59,7 +59,7 @@ calam-arch - plain arch with graphical installer
 archinstall - included script  
 arch linux GUI min  
 archfi  
-<anarchyinstaller.gitlab.io>  
+anarchyinstaller.gitlab.io    
 <https://osdn.net/projects/ezarch/>  
 
 arch from scratch??  
