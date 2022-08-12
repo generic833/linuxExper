@@ -1,8 +1,8 @@
-https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/
-(url not available??) https://wikka.puppylinux.com/Buildsystems
-https://landchad.net/gemini
-https://distro.tube/index.html
-https://www.learnlinux.tv/test-2/
+https://www.cyberciti.biz/faq/linux-list-disk-partitions-command/  
+(url not available??) https://wikka.puppylinux.com/Buildsystems  
+https://landchad.net/gemini  
+https://distro.tube/index.html  
+https://www.learnlinux.tv/test-2/  
 https://miro.medium.com/max/1836/1*eOnDXJOEREW6Q6MFiTucAw.png
 
 Best minimal options to research:
@@ -17,7 +17,7 @@ What is the end goal that I want to achieve the most:
 3. run and try GUIs or distros
 4. cook-up iso's
 
-# : Tiny Core Core/Plus
+#:: Tiny Core Core/Plus ::
 - willhaley.com/blog/simple-portable-linux-qemu-vm-usb
 - extracted vmlinuz and core.gz out of iso with 7zip program
 - download qemu version which is portable Eric Lassauge
@@ -35,97 +35,97 @@ What is the end goal that I want to achieve the most:
  - echo hpet | sudo tee /sys/devices/system/clocksource/clocksource0/current_clocksource
 
 
-booting qemu command
+## booting qemu command
 - qemu-system-x86_64 -boot d -cdrom image.iso -m 512 [-hda mydisk.img]
  - last optional part above is if you created a disk image to read/write to during installs
 
-erikveen.dds.nl/qemupuppy/index.html
+erikveen.dds.nl/qemupuppy/index.html    
 https://project-awesome.org/PandaFoss/Awesome-Arch#arch-based-projects
 
-EasyOS Builds - https://easyos.org/dev/how-to-compile-a-linux-distribution-from-source.html
-Puppy Builds - With Woof-CE https://puppylinux.com/woof-ce.html
-WeeDog Builds - Details: https://oldforum.puppylinux.com/viewtopic.php?t=116212&i=1
-Debian Builds - 
+EasyOS Builds - https://easyos.org/dev/how-to-compile-a-linux-distribution-from-source.html  
+Puppy Builds - With Woof-CE https://puppylinux.com/woof-ce.html  
+WeeDog Builds - Details: https://oldforum.puppylinux.com/viewtopic.php?t=116212&i=1  
+Debian Builds -   
 Ubuntu Builds - 
 
-# BYO Arch:
-Arco - mixer edition of arch (i've looked at this a lot, but confusing...)
-calam-arch - plain arch with graphical installer
-archinstall - included script
-arch linux GUI min
-archfi
-anarchyinstaller.gitlab.io
-https://osdn.net/projects/ezarch/
+# :: BYO Arch ::
+Arco - mixer edition of arch (i've looked at this a lot, but confusing...)  
+calam-arch - plain arch with graphical installer  
+archinstall - included script  
+arch linux GUI min  
+archfi  
+anarchyinstaller.gitlab.io  
+https://osdn.net/projects/ezarch/  
 
-arch from scratch??
-arch btw??
-Arch Install Guide(s)
+arch from scratch??  
+arch btw??  
+Arch Install Guide(s)  
 
-# Lightweight Arch
-artixlinux.org - outdated and is a protest distro over systemd init change
-maboxlinux.org - openbox edition
-https://axyl-os.github.io/
-rebornos.org
-archlabslinux.com
-archlinux.org/
-sourceforge.net/projects/snallinux/
-peux-os.netlify.app/
-https://archbang.org/
+# :: Lightweight Arch ::
+artixlinux.org - outdated and is a protest distro over systemd init change  
+maboxlinux.org - openbox edition  
+https://axyl-os.github.io/  
+rebornos.org  
+archlabslinux.com  
+archlinux.org/  
+sourceforge.net/projects/snallinux/  
+peux-os.netlify.app/  
+https://archbang.org/  
 
-qtile window manager
+qtile window manager  
 openbox
 
-# Full Arch Linux:
-manjaro.org- one of the leading distros overall
-endeavouros.com - upcoming option in this space/category grouping
-garudalinux.org- another upcoming option/gaming crowd appeal
-archcraft.io - stylistic version, making the arch setup look good and run 
-instantos.io
-caesar-rylan.60.nu/lirix/
-xerolinux
-web.obarun.org/
-salientos.github.io/
-hefftor
-endlessos.com/home/
+# :: Full Arch Linux ::
+manjaro.org- one of the leading distros overall 
+endeavouros.com - upcoming option in this space/category grouping  
+garudalinux.org- another upcoming option/gaming crowd appeal  
+archcraft.io - stylistic version, making the arch setup look good and run   
+instantos.io  
+caesar-rylan.60.nu/lirix/  
+xerolinux  
+web.obarun.org/  
+salientos.github.io/  
+hefftor  
+endlessos.com/home/  
 
 creation of reproducible arch build that I can pump out, copy, paste, re-load fresh copy)
 
-# Debian/Ubuntu: 
-Debian
-Ubuntu
-cutefish-ubuntu.github.io/
-https://zephix-linux.sourceforge.io/
-sourceforge.net/projects/eznixos/
-modicia os (ubuntu)
-https://zorinos.com/
-https://elementary.io/
-https://ubuntu.com/
-https://www.debian.org/
-https://peppermintos.com/
-https://pop.system76.com/ - 
+# :: Debian/Ubuntu ::
+Debian  
+Ubuntu  
+cutefish-ubuntu.github.io/  
+https://zephix-linux.sourceforge.io/  
+sourceforge.net/projects/eznixos/  
+modicia os (ubuntu)  
+https://zorinos.com/  
+https://elementary.io/  
+https://ubuntu.com/  
+https://www.debian.org/  
+https://peppermintos.com/  
+https://pop.system76.com/ -   
 
-# Puppy List:
+# :: Puppy List ::
 - Puppy
 - WeeDog
 - EasyOS
-https://easyos.org/
-http://distro.ibiblio.org/fatdog/web/faqs/uefi-flashdrive2.html
-http://murga-linux.com/puppy/viewtopic.php?p=977466
-http://helledussen.com/linux/files/UEFI_boot/make_uefi-bootable_usb.html
-https://www.bleepingcomputer.com/forums/t/679911/puppy-linux-usb-fail-to-boot/
-https://chrisjrob.com/2010/04/30/make-a-linux-usb-key/
-https://weedoglinux.rockedge.org/viewtopic.php?f=41&t=28&sid=72e17dac324e4d36bb91874db92786c5
-https://www.tinylinux.info/
-https://forum.puppylinux.com/viewforum.php?f=33
-https://www.techrepublic.com/article/solutionbase-puppy-linux-teaches-an-old-dog-new-tricks/
-http://www.murga-linux.com/puppy/viewtopic.php?p=517224#517224
-https://docs.google.com/document/d/1bkMJ-2wjAAC8HVZZTZBFxBELbojoGctLMg27KazqvRw/edit?hl=en#
-https://www.linuxsecrets.com/puppylinux/Remastering.html
-https://distro.ibiblio.org/fatdog/web/#download
-http://distro.ibiblio.org/fatdog/web/faqs/harddrive.html
-http://wikka.puppylinux.com/USBBootwithoutBIOSSupport
+https://easyos.org/  
+http://distro.ibiblio.org/fatdog/web/faqs/uefi-flashdrive2.html  
+http://murga-linux.com/puppy/viewtopic.php?p=977466  
+http://helledussen.com/linux/files/UEFI_boot/make_uefi-bootable_usb.html  
+https://www.bleepingcomputer.com/forums/t/679911/puppy-linux-usb-fail-to-boot/  
+https://chrisjrob.com/2010/04/30/make-a-linux-usb-key/  
+https://weedoglinux.rockedge.org/viewtopic.php?f=41&t=28&sid=72e17dac324e4d36bb91874db92786c5  
+https://www.tinylinux.info/  
+https://forum.puppylinux.com/viewforum.php?f=33  
+https://www.techrepublic.com/article/solutionbase-puppy-linux-teaches-an-old-dog-new-tricks/  
+http://www.murga-linux.com/puppy/viewtopic.php?p=517224#517224  
+https://docs.google.com/document/d/1bkMJ-2wjAAC8HVZZTZBFxBELbojoGctLMg27KazqvRw/edit?hl=en#  
+https://www.linuxsecrets.com/puppylinux/Remastering.html  
+https://distro.ibiblio.org/fatdog/web/#download  
+http://distro.ibiblio.org/fatdog/web/faqs/harddrive.html  
+http://wikka.puppylinux.com/USBBootwithoutBIOSSupport  
 
-# Experimental List:
+# :: Experimental List ::
 https://kisslinux.org/
 www.exton.net/
 www.mocaccino.org/
@@ -165,7 +165,7 @@ https://www.hirensbootcd.org/
 https://www.plop.at/en/bootmanagers.html
 https://blissos.org/
 
-# Unknowns or independent: 
+# :: Unknowns or independent ::
 osdn.net/projects/hanhlinuxiso/releases/
 Alpine
 redox-os.org
