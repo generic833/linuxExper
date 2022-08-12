@@ -81,7 +81,7 @@ qtile window manager
 openbox
 
 # :: Full Arch Linux ::
-<https://manjaro.org>- one of the leading distros overall 
+<https://manjaro.org>- one of the leading distros overall  
 <https://endeavouros.com> - upcoming option in this space/category grouping  
 <https://garudalinux.org>- another upcoming option/gaming crowd appeal  
 <https://archcraft.io> - stylistic version, making the arch setup look good and run   
@@ -135,7 +135,7 @@ modicia os (ubuntu)
 <https://www.exton.net/>  
 <https://www.mocaccino.org/>  
 <https://rlxos.dev/>  
-<https://serpentos.com> (ikey doherty)
+<https://serpentos.com> (ikey doherty)  
 <https://peropesis.org/>  
 <https://carbslinux.org/>  
 <https://bellard.org/>  
@@ -172,7 +172,7 @@ modicia os (ubuntu)
 
 # :: Unknowns or independent ::
 <https://osdn.net/projects/hanhlinuxiso/releases/>  
-Alpine
+Alpine  
 <https://redox-os.org>  
 <https://getsol.us/home/>  
 <https://nxos.org/>  
@@ -187,7 +187,7 @@ Alpine
 <https://www.ultimatebootcd.com/>  
 <http://www.slitaz.org/en/>  
 
-Review these links to categorize them better:
+### Review these links to categorize them better:  
 <https://www.linuxandubuntu.com/home/make-your-very-own-customized-linux-distro-from-your-current-installation>  
 <https://www.linuxandubuntu.com/home/desktop-environments-for-linux>  
 <https://ostechnix.com/how-to-create-a-custom-ubuntu-live-iso-image-with-cubic/>  
@@ -216,49 +216,49 @@ Review these links to categorize them better:
 <https://www.gnu.org/software/grub/manual/grub/html_node/Installing-GRUB-using-grub_002dinstall.html>  
 <https://forums.debian.net//viewtopic.php?f=17&t=134361>  
 
-Linux notes:
+# Linux notes:
 
 Ubuntu 20.04 LTS is installed in a VirtualBox
 This is supported 5 years but will get out of date
 If packages cannot be found to install or update you should first run:
-sudo apt update
+`sudo apt update`
 
 This command will refresh packages indexes and configuration of package installs
 It doesn't install or download anything new specifically
 If you want the most up to date packages INSTALLED you must run:
-sudo apt upgrade
+`sudo apt upgrade`
 
 I don't know how this affects when there are other, newer ubuntu versions available and whether and when
 those are downloaded and installed or not. I'm pretty cautious with this.
 
 
 windows 10 install wsl2 (what to do with wsl1?)
-wsl --install
+`wsl --install`
 
-Drop to console: ctrl+alt+f3
+Drop to console: [ctrl+alt+f3]
 
-dpkg-reconfigure -plow unattended-upgrades
+`dpkg-reconfigure -plow unattended-upgrades`
 
-debootstrap (for ubuntu)
---arch=amd64
---variant=minbase [minbase|buildd|fakechroot]
-[name] see https://wiki.ubuntu.com/Releases
-[install folder]
-http://us.archive.ubuntu.com/ubuntu/ [mirror url?]
+debootstrap (for ubuntu)  
+--arch=amd64  
+--variant=minbase [minbase|buildd|fakechroot]  
+[name] see https://wiki.ubuntu.com/Releases  
+[install folder]  
+http://us.archive.ubuntu.com/ubuntu/ [mirror url?]  
 
-debian sid/unstable package
-wget http://http.us.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.123_all.deb
+debian sid/unstable package  
+`wget http://http.us.debian.org/debian/pool/main/d/debootstrap/debootstrap_1.0.123_all.deb`
 `sudo dpkg -i <pkg>`
 
-low memory/power version of ubuntu on usb to use with hdmi pc.
-my procedure for developing this drive was to switch from gnome desktop to openbox
-remove the default login manager and install the slim manager:
-sudo apt-get remove gdm3
-sudo apt-get install slim
+low memory/power version of ubuntu on usb to use with hdmi pc.  
+my procedure for developing this drive was to switch from gnome desktop to openbox  
+remove the default login manager and install the slim manager:  
+`sudo apt-get remove gdm3`
+`sudo apt-get install slim`
 <https://www.fosslicious.com/2018/05/install-and-change-display-manager.html>  
 
 install the openbox wm
-sudo apt install openbox obconf
+`sudo apt install openbox obconf`
 
 what file(s) did I have to update in order to make it login under openbox instead of gnome??
 
@@ -290,7 +290,7 @@ what file(s) did I have to update in order to make it login under openbox instea
 <https://itsfoss.com/connect-wifi-terminal-ubuntu/>  
 <https://www.hndigest.com/m/hFqOFsRMRIlqmxeJn2zVdQ==/s/142741>  
 <https://leimao.github.io/blog/Tmux-Tutorial/>  
-Memory Use
+Memory Use  
 <https://www.linuxbabe.com/command-line/ubuntu-server-16-04-wifi-wpa-supplicant>  
 <https://www.google.com/search?client=firefox-b-1-d&q=how-configure-wireless-any-linux-desktop>  
 <https://itsfoss.com/always-on-top/>  
